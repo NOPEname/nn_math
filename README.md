@@ -10,6 +10,7 @@ However you can as well take parts (subfolders and/or single function files) fro
 
 ## Structure
 The library contains a bunch of different modules, which are separated in subfolders.
+Run `/function math:list` in chat to get a list of all installed modules (might not work if you don't use the full/original datapack).
 
 Modules can be initialized using `/function math:<module name>/setup` in case it does not happen automatically. `/function math:setup` will call the setup functions of all modules at once.
 
