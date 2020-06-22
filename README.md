@@ -1,5 +1,6 @@
 # Minecraft Math Functions
 This is a library of math related functions for your Minecraft datapacks.
+Supported Minecraft versions: 1.15 (some functions might also work in 1.14 - no warranty!)
 
 
 ## Setup
