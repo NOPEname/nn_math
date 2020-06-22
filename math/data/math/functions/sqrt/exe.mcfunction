@@ -6,8 +6,8 @@
 #		objective: 	math_sqrt
 #		name: 		in
 
-#calc:	function math:sqrt/exe
-#preserves input: yes
+#use:				function math:sqrt/exe
+#preserves input: 	yes
 
 #output:
 #		format: 	scoreboard
