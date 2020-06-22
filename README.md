@@ -17,7 +17,7 @@ Functions in `private` subfolders are used by the interface functions. Do not ca
 All functions outside of these `private` subfolders contain comments explaining their input/output behaviour.
 
 
-##How to use
+## How to use
 Most modules will works as follows:
 1) Set input values as described in the comments of `<module name>\exe.mcfunction`
 2) Execute `/function math:<module name>/exe`
