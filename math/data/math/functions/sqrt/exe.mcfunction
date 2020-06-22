@@ -3,7 +3,7 @@
 
 #input:
 # 		format:		scoreboard
-#		objective: 	math_squrt
+#		objective: 	math_sqrt
 #		name: 		in
 
 #calc:	function math:sqrt/exe
@@ -11,11 +11,11 @@
 
 #output:
 #		format: 	scoreboard
-#		objective: 	math_squrt
+#		objective: 	math_sqrt
 #		name: 		out
 
 
-scoreboard players operation out math_squrt = in math_squrt
-scoreboard players set tmp math_squrt 1
+scoreboard players operation out math_sqrt = in math_sqrt
+scoreboard players set tmp math_sqrt 1
 
-execute if score out math_squrt > tmp math_squrt run function math:sqrt/private/loop
+execute if score out math_sqrt > tmp math_sqrt run function math:sqrt/private/loop
