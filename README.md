@@ -1,0 +1,2 @@
+# math
+Minecraft math datapack
