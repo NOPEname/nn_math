@@ -1,10 +1,6 @@
 ##by NOPEname
 
 scoreboard objectives add math_trig dummy
-scoreboard players set -1 math_trig -1
-scoreboard players set 180 math_trig 180
-scoreboard players set 360 math_trig 360
-
 scoreboard players set 20 math_trig 20
 scoreboard players set 10000 math_trig 10000
 scoreboard players set 1000 math_trig 1000
@@ -15,4 +11,4 @@ scoreboard players set 583200 math_trig 583200
 scoreboard players set 18000 math_trig 18000
 scoreboard players set 36000 math_trig 36000
 
-tellraw @a {"text":"-math.trig installed","color":"gray"}
+tellraw @a {"text":"-math.trig.sin_bs installed","color":"gray"}

@@ -6,7 +6,7 @@
 #		objective: 	math_sqrt
 #		name: 		in
 
-#use:				function math:sqrt/exe
+#use:				<this>
 #preserves input: 	yes
 
 #output:
