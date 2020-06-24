@@ -15,4 +15,6 @@ scoreboard players set 583200 math_trig 583200
 scoreboard players set 18000 math_trig 18000
 scoreboard players set 36000 math_trig 36000
 
+scoreboard players set 3600000 math_trig 3600000
+
 tellraw @a {"text":"-math.trig installed","color":"gray"}

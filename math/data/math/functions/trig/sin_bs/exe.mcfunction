@@ -15,7 +15,7 @@
 #		objective: 	math_trig
 #		name: 		out
 #		format:		scaled by 10000		(example: 936 stands for 0.0936 )
-#		accuracy:	first 3 decimal places exact, last decimal place might differ by 1-3 (max error: 0.0003)
+#		accuracy:	max error: 0.0005	(scaled -> 5 )
 
 #additional information:
 #		methode used: Bhaskar-Stroethoff (https://wiki.tcl-lang.org/page/Indian+Math+Bhaskara+%281%29+Sine+formula+and+extensions%2C+history+of+math++#a0ccfcf15f6b7964bb0cc284e2af6981086e2a18a991cfd83a4883c5b5e4ef80)

@@ -15,6 +15,7 @@
 #		objective: 	math_trig
 #		name: 		out
 #		format:		scaled by *1000000000	([0..1] -> [0..1000000000])
+#		accuracy:	best possible result
 
 #additional information:
 #		methode used: lookup table
