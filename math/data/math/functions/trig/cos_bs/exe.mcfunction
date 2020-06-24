@@ -20,7 +20,7 @@
 
 
 
-scoreboard players operation in math_trig %= 360 math_trig
-scoreboard players add in math_trig 90
+scoreboard players operation in math_trig %= 36000 math_trig
+scoreboard players add in math_trig 9000
 function math:trig/sin_bs/exe
-scoreboard players remove in math_trig 90 
+scoreboard players remove in math_trig 9000 
