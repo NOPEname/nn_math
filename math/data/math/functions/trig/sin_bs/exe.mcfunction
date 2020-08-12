@@ -56,4 +56,6 @@ scoreboard players operation tmp0 math_trig *= t_xx_sq math_trig
 scoreboard players operation tmp0 math_trig /= 583200 math_trig
 scoreboard players operation out math_trig += tmp0 math_trig
 
+execute if score in math_trig matches 18001.. run scoreboard players operation out math_trig *= -1 math_trig
+
 ###scoreboard players operation out math_trig /= 10 math_trig

@@ -11,5 +11,6 @@ scoreboard players set 583200 math_trig 583200
 scoreboard players set 18000 math_trig 18000
 scoreboard players set 36000 math_trig 36000
 scoreboard players set 9000 math_trig 9000
+scoreboard players set -1 math_trig -1
 
 tellraw @a {"text":"-math.trig.sin_bs installed","color":"gray"}
