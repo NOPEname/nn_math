@@ -11,19 +11,18 @@ However you can as well take parts (subfolders and/or single function files) fro
 ## Structure
 The library contains a bunch of different modules, which are separated in subfolders.
 Run `/function math:list` in chat to get a list of all installed modules (might not work if you don't use the full/original datapack).
+Run `/function math:help` or `/function math:<module/function name>/help` to get more information about how to use this module/function (input-/output-behavior).
 
-Modules can be initialized using `/function math:<module name>/setup` in case it does not happen automatically. `/function math:setup` will call the setup functions of all modules at once.
+Modules can be initialized using `/function math:<module name>/setup`, in case it does not happen automatically. `/function math:setup` will call the setup functions of all modules at once.
 
 Functions in `private` subfolders are used by the interface functions. Do not call them directly.
-
-All functions outside of these `private` subfolders contain comments explaining their input/output behaviour.
 
 
 ## How to use
 Most modules will works as follows:
-1) Set input values as described in the comments of `<module name>\exe.mcfunction`
+1) Set input values as described in `<module/function name>\help.mcfunction`
 2) Execute `/function math:<module name>/exe`
-3) Access output values as described in the comments of `<module name>\exe.mcfunction`
+3) Access output values as described `<module/function name>\help.mcfunction`
 
 
 ## Found Bugs / Need Help?
