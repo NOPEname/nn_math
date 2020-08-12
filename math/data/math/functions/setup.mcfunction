@@ -5,6 +5,7 @@ tellraw @a {"text":">>Installing Math Library Pack (by NOPEname).","color":"gold
 
 function math:sqrt/setup
 function math:trig/setup
+function math:vec/setup
 
 gamerule commandBlockOutput false
 tellraw @a {"text":">>Gamerule 'commandBlockOutput' set to 'false'","color":"gray"}

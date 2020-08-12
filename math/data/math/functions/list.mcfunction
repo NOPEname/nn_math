@@ -5,6 +5,7 @@ tellraw @a {"text":">>Listing installed modules:","color":"gold"}
 
 function math:sqrt/list
 function math:trig/list
+function math:vec/list
 
 tellraw @a {"text":"Done.","color":"gold"}
 tellraw @a {"text":"-------------------------------------","color":"gold"}
