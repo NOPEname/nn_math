@@ -6,5 +6,5 @@ tellraw @a {"text":"-Preserves input: yes","color":"gray"}
 tellraw @a {"text":"-Output: scoreboard (obj: 'math_vec', name: 'out.x', 'out.y')","color":"gray"}
 tellraw @a {"text":"-Dependencies: -","color":"gray"}
 tellraw @a {"text":"-Accuracy: Exact value","color":"gray"}
-tellraw @a {"text":"-Method used: in0.(x/y) + in1(x/y)","color":"gray"}}
-tellraw @a {"text":"-For 2D-vec subtraction: use vec/2/add with negitive input","color":"gray"}}
+tellraw @a {"text":"-Method used: in0.(x/y) + in1(x/y)","color":"gray"}
+tellraw @a {"text":"-For 2D-vec subtraction: use vec/2/add with negitive input","color":"gray"}

@@ -6,4 +6,4 @@ tellraw @a {"text":"-Preserves input: yes","color":"gray"}
 tellraw @a {"text":"-Output: scoreboard (obj: 'math_vec', name: 'out')","color":"gray"}
 tellraw @a {"text":"-Dependencies: -","color":"gray"}
 tellraw @a {"text":"-Accuracy: Exact value","color":"gray"}
-tellraw @a {"text":"-Method used: in0.x * in1.x + in0.y * in1.y","color":"gray"}}
+tellraw @a {"text":"-Method used: in0.x * in1.x + in0.y * in1.y","color":"gray"}
