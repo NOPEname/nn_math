@@ -7,3 +7,4 @@ tellraw @a {"text":"-Input: scoreboard (obj: 'nn_math_rand' , name: 'max')","col
 tellraw @a {"text":"-Output: scoreboard (obj: 'nnmath_rand', name: 'out')","color":"gray"}
 tellraw @a {"text":"-Dependencies: nn_math:trig/sin_lt","color":"gray"}
 tellraw @a {"text":"-Methode used: LCG + sine (for a \"more random\" pattern)","color":"gray"}
+tellraw @a {"text":"-Credits: based on the LCG RNG by CloudWolf (https://youtu.be/fzZASMieGn0)","color":"gray"}

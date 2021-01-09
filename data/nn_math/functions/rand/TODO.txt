@@ -1,2 +1,0 @@
-- credits & source
-- help: which function to run ("exe" -> "next_int" ? )
