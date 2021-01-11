@@ -24,5 +24,5 @@
 scoreboard players operation in nnmath_trig %= 360 nnmath_trig
 scoreboard players operation tmp nnmath_trig = in nnmath_trig
 scoreboard players operation tmp nnmath_trig %= 180 nnmath_trig
-function nn_math:trig/sin_lt/private/lookup
+function nnmath:trig/sin_lt/private/lookup
 execute if score in nnmath_trig matches 181..360 run scoreboard players operation out nnmath_trig *= -1 nnmath_trig

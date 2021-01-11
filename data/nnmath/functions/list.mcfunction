@@ -3,10 +3,10 @@
 tellraw @a {"text":"\n-------------------------------------","color":"gold"}
 tellraw @a {"text":">>Listing installed modules:","color":"gold"}
 
-function nn_math:sqrt/list
-function nn_math:trig/list
-function nn_math:vec/list
-function nn_math:rand/list
+function nnmath:sqrt/list
+function nnmath:trig/list
+function nnmath:vec/list
+function nnmath:rand/list
 
 tellraw @a {"text":"Done.","color":"gold"}
 tellraw @a {"text":"-------------------------------------","color":"gold"}

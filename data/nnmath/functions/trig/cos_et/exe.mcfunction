@@ -28,5 +28,5 @@
 
 scoreboard players operation in nnmath_trig %= 3600000 nnmath_trig
 scoreboard players add in nnmath_trig 900000
-function nn_math:trig/sin_et/exe
+function nnmath:trig/sin_et/exe
 scoreboard players remove in nnmath_trig 900000 

@@ -6,7 +6,7 @@ scoreboard players operation range nnmath_rand -= min nnmath_rand
 
 scoreboard players operation tmp0 nnmath_rand = range nnmath_rand
 scoreboard players remove tmp0 nnmath_rand 1
-function nn_math:rand/private/next_int_lcg
+function nnmath:rand/private/next_int_lcg
 scoreboard players operation out nnmath_rand += min nnmath_rand
 
 ###scoreboard players reset tmp0 nnmath_rand

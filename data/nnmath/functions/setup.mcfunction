@@ -3,10 +3,16 @@
 tellraw @a {"text":"\n-------------------------------------","color":"gold"}
 tellraw @a {"text":">>Installing Math Library Pack (by NOPEname).","color":"gold"}
 
-function nn_math:sqrt/setup
-function nn_math:trig/setup
-function nn_math:vec/setup
-function nn_math:rand/setup
+function nnmath:sqrt/setup
+function nnmath:trig/setup
+function nnmath:vec/setup
+function nnmath:rand/setup
+
+tellraw @a {"text":"-------------------------------------"}
+
+function nnalg:setup
+
+tellraw @a {"text":"-------------------------------------"}
 
 gamerule commandBlockOutput false
 tellraw @a {"text":">>Gamerule 'commandBlockOutput' set to 'false'","color":"gray"}

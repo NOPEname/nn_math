@@ -54,7 +54,7 @@ scoreboard players operation tmp1 nnmath_trig = tmp0 nnmath_trig
 scoreboard players operation tmp1 nnmath_trig *= 100000 nnmath_trig
 scoreboard players set in nnmath_sqrt 100000000
 scoreboard players operation in nnmath_sqrt -= tmp1 nnmath_trig
-function nn_math:sqrt/exe
+function nnmath:sqrt/exe
 
 scoreboard players operation t_in nnmath_trig = tmp0 nnmath_trig
 scoreboard players operation t_in nnmath_trig /= 10 nnmath_trig
