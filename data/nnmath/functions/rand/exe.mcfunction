@@ -1,5 +1,7 @@
 ##by NOPEname
 
+execute if score min nnmath_rand > max nnmath_rand run function nnmath:rand/private/swap_input
+
 scoreboard players add max nnmath_rand 1
 scoreboard players operation range nnmath_rand = max nnmath_rand
 scoreboard players operation range nnmath_rand -= min nnmath_rand
