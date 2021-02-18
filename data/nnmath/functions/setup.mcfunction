@@ -6,6 +6,7 @@ tellraw @a {"text":">>Installing Math Library Pack (by NOPEname).","color":"gold
 function nnmath:sqrt/setup
 function nnmath:trig/setup
 function nnmath:vec/setup
+function nnmath:rand/setup
 
 tellraw @a {"text":"-------------------------------------"}
 
