@@ -27,5 +27,5 @@
 scoreboard players operation in nnmath_trig %= 3600000 nnmath_trig
 
 scoreboard players set flag_no_aec nnmath_trig 1
-execute as @e[type=area_effect_cloud,tag=nnmath_trig,limit=1] at @s run function nnmath:trig/sin_et/private/calc
-execute if score flag_no_aec nnmath_trig matches 1 run function nnmath:trig/sin_et/private/no_aec
+execute as @e[type=area_effect_cloud,tag=nnmath_trig,limit=1] at @s run function nnmath:zz_private/trig/sin_et/calc
+execute if score flag_no_aec nnmath_trig matches 1 run function nnmath:zz_private/trig/sin_et/no_aec
