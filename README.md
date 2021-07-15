@@ -4,9 +4,12 @@ Supported Minecraft versions: 1.15, 1.16 (some functions might also work in 1.14
 
 
 ## License
-It basically says: Do whatever you want with my code... but please give credits (https://choosealicense.com/licenses/mit/)
+MIT license (https://choosealicense.com/licenses/mit/)
 
-Do this by including the text inside "LICENSE" in the parts of your project (datapack) containing my code
+Short summary:
+1) Do whatevery you want with my code
+2) Condition: Preserve the copyright notice containing my name ("NOPEname") attached to my code in your project (can be found inside the "LICENSE" file)
+3) Warranty: absolutely zero! My code doesn't do what you want it to do or even breaks something? Sorry, but... no warranty!
 
 
 ## Setup
