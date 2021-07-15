@@ -3,6 +3,12 @@ This is a library of math related functions for your Minecraft project.
 Supported Minecraft versions: 1.15, 1.16 (some functions might also work in 1.14 - no warranty!)
 
 
+## License
+It basically says: Do whatever you want with my code... but please give credits (https://choosealicense.com/licenses/mit/)
+
+Do this by including the text inside "LICENSE" in the parts of your project (datapack) containing my code
+
+
 ## Setup
 This project can be used as one, all-including datapack.
 However you can as well take parts (subfolders and/or single function files) from it to include them directly in your own datapacks. In that case you have to take care yourself for that it works as intended.
@@ -27,8 +33,3 @@ Most modules will works as follows:
 
 ## Found Bugs / Need Help?
 Contact me (NOPEname) on any platform you like (Twitter, PlanetMinecraft, Discord, etc.)
-
-## License
-It basically says: Do whatever you want with my code... but please give credits
-
-Do this by including the text inside "LICENSE" in the parts of your project (datapack) containing my code
